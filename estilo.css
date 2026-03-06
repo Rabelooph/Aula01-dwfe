@@ -1,3 +1,30 @@
-p {
-    color: red
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: colum;
+}
+header{
+    border: .1rem solid red;
+    height: 3rem;
+}
+section{
+    border: .1rem solid blue;
+    display: flex;
+}
+nav{
+    border: .1rem solid orangered;
+
+}
+main{
+    border: .1rem solid yellow;
+    display: flex;
+}
+footer{
+    border: .1rem solid purple;
+    height: 2rem;
 }
